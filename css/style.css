@@ -40,9 +40,11 @@ p{
     width: calc((100%/3) - 2em);
     height: 100px;
     background-color: var(--box);
+    text-align: left;
    
 }
 
-.img{
+img{
     width: 100px;
 }
+
