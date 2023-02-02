@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+:root{
+    --title: #E53170;
+    --teammates: #FFFFFF;
+    --email: #00ffff;
+}
+
+body{
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    color: var(--title);   
+}
+
+p{
+    margin: 50px;
+}
