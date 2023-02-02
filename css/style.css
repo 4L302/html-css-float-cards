@@ -6,8 +6,13 @@
 
 :root{
     --title: #E53170;
-    --teammates: #FFFFFF;
+    --teammates: #ffffff;
     --email: #00ffff;
+    --box: #070025;
+}
+
+.debug{
+    border: 1px solid red;
 }
 
 body{
@@ -21,9 +26,23 @@ body{
 }
 
 h1{
-    color: var(--title);   
+    color: var(--title);  
+    margin-top: 30px; 
 }
 
 p{
-    margin: 50px;
+    margin: 40px;
+}
+
+.box{
+    float: left;
+    margin: 1em;
+    width: calc((100%/3) - 2em);
+    height: 100px;
+    background-color: var(--box);
+   
+}
+
+.img{
+    width: 100px;
 }
